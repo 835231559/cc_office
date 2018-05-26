@@ -1,0 +1,28 @@
+{
+  "name": "cc_office",
+  "version": "0.0.1",
+  "description": "cc_office",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo node --use_strict app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/835231559/cc_office.git"
+  },
+  "author": "SOG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/835231559/cc_office/issues"
+  },
+  "homepage": "https://github.com/835231559/cc_office#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "mime": "^2.3.1",
+    "mz": "^2.7.0",
+    "nunjucks": "^3.1.3"
+  }
+}
